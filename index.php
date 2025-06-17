@@ -1,4 +1,6 @@
 <?php
+require __DIR__ . '/QueryPC.php';
+
 $oldversion = false;
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
@@ -79,7 +81,7 @@ $oldversion = false;
 
         <div class="sideBox LHS">
             <div>Program Committee</div>
-            <?php require('queryPC.php'); ?>
+            <?php echo QueryPC::PCtoHtml(); ?>
             <!--
             <a href="http://www.cs.nott.ac.uk/~psarb2/">Roland Backhouse</a>
             <a href="https://tu-dresden.de/mn/math/algebra/bodirsky?set_language=en">Manuel Bodirsky</a>
