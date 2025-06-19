@@ -1,6 +1,4 @@
-<?php
-$oldversion = false;
-?>
+php index.php
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
@@ -42,8 +40,14 @@ $oldversion = false;
         <!-- ###### Header ###### -->
 
         <div id="header">
+            <span>
+                <img src="figs/impan.jpg" alt="Impan" style="width:8%; height:auto; margin-right:1em;vertical-align: top;"/>
+                <img src="figs/BanachCenter.png" alt="Banach Center" style="width:8%; height:auto;margin-right:5em;vertical-align: top;"/>                
+            </span>
             <span class="headerTitle">
-                <a href="index.html">Relational and Algebraic Methods in Computer Science (RAMICS 2026)</a>
+                <p><a href="index.html">Relational and Algebraic Methods in Computer Science (RAMICS 2026)</a></p>
+                <p>Institute of Mathematics of the Polish Academy of Sciences,
+                    Będlewo, Poland, April 07-10, 2026</p>
             </span>
         </div>
 
@@ -54,8 +58,8 @@ $oldversion = false;
             <a href="index.html">Home</a>
             <!-- <a href="#cfp">Call for papers</a> -->
             <!-- <a href="#program"><font color="red"><b>Program</b></font></a>  -->
-            <!-- <a href="#invited">Invited speakers</a>-->
-            <a href="#accepted">Accepted papers</a>
+            <a href="#invited">Invited speakers</a>
+            <!--<a href="#accepted">Accepted papers</a>
             <a href="#registration">Registration</a>
             <!-- <a href="ramics2024-flyer.pdf">Flyer</a> -->
             <a href="#venue">Venue</a>
@@ -69,8 +73,7 @@ $oldversion = false;
 
         <div class="sideBox LHS">
             <div>Invited Speakers</div>
-            <?php require('queryISs.php') ?>
-            <!--
+                        <!--
             <a href="https://www8.cs.fau.de/people/sergey-goncharov/">Sergey Goncharov</a>
             <a href="https://filozofia.uj.edu.pl/tomasz-kowalski">Tomasz Kowalski</a>
             <a href="https://sarahwinter.net/">Sarah Winter</a>
@@ -79,44 +82,30 @@ $oldversion = false;
 
         <div class="sideBox LHS">
             <div>Program Committee</div>
-            <?php require('queryPC.php'); ?>
-            <!--
-            <a href="http://www.cs.nott.ac.uk/~psarb2/">Roland Backhouse</a>
-            <a href="https://tu-dresden.de/mn/math/algebra/bodirsky?set_language=en">Manuel Bodirsky</a>
-            <a href="https://www.acal-scientia.org/miembros/caicedo-ferrer-xavier/">Xavier Caicedo Ferrer</a>
-            <a href="https://www.wits.ac.za/staff/academic-a-z-listing/c/willemconradiewitsacza/">Willem Conradie</a>
-            <a href="http://www.ift.ulaval.ca/~desharnais">Jules Desharnais</a>
-            <a href="https://jeremydubut.com/">Jérémy Dubut</a>
-            <a href="https://ulifahrenberg.github.io/">Uli Fahrenberg (co-chair)</a>
-            <a href="https://www.irif.fr/users/mfortin/">Marie Fortin</a>
-            <a href="https://www.sci.kagoshima-u.ac.jp/furusawa/">Hitoshi Furusawa</a>
-            <a href="http://www.wesleyfussner.com/">Wesley Fussner (co-chair)</a>
-            <!--
-            <a href="http://rolandglueck.de/">Roland Glück (co-chair)</a>
-            <a href="https://www2.philosophy.su.se/goranko/">Valentin Goranko</a>
-            <a href="https://www.canterbury.ac.nz/engineering/contact-us/people/walter-guttmann.html">Walter Guttmann</a>
-            <a href="http://www.cs.ucl.ac.uk/staff/robin_hirsch/">Robin Hirsch</a>
-            <a href="http://www.hoefner-online.de/">Peter Höfner</a>
-            <a href="https://cse.umn.edu/cs/sebastiaan-joosten">Sebastiaan Joosten</a>
-            <a href="https://www.cas.mcmaster.ca/~kahl/">Wolfram Kahl</a>
-            <a href="https://tobias.kap.pe/">Tobias Kappé</a>
-            <a href="https://www.irif.fr/~ledent/">Jérémy Ledent</a>
-            <a href="https://faculty.sites.iastate.edu/maddux/">Roger Maddux</a>
-            <a href="http://www.lix.polytechnique.fr/Labo/Dale.Miller/">Dale Miller</a>            
-            <a href="https://scholar.google.com/citations?user=rWJLBq8AAAAJ&hl=de">Ali Jaoua</a>
-            <a href="http://www1.chapman.edu/~jipsen/">Peter Jipsen</a>
-
-
-            <a href="https://pageperso.lis-lab.fr/luigi.santocanale/">Luigi Santocanale (co-chair)</a>
-            <!--
-            <a href="http://www.cs.uni-salzburg.at/~anas/">Ana Sokolova</a>
-            <a href="https://homes.cs.aau.dk/~srba/">Jiři Srba</a>
-            <a href="https://ugolinisara.wordpress.com/">Sara Ugolini</a>
-            <a href="http://www0.cs.ucl.ac.uk/people/J.Wagemaker.html">Jana Wagemaker</a>
-            <a href="http://www.cosc.brocku.ca/~mwinter/">Michael Winter</a>
-            <a href="https://www.mimuw.edu.pl/~ziemians/">Krzysztof Ziemiański</a>
-            -->
-        </div>
+            <a href="https://www.universiteitleiden.nl/en/staffmembers/henning-basold#tab-1">Henning  Basold </a>
+<a href="https://tu-dresden.de/mn/math/algebra/bodirsky?set_language=en">Manuel Bodirsky </a>
+<a href="https://andrewcraigmaths.wordpress.com/">Andrew Craig </a>
+<a href="https://dai.fmph.uniba.sk/~gruska/">Gruska Damas </a>
+<a href="https://ulifahrenberg.github.io/">Uli Fahrenberg (co-chair)</a>
+<a href="http://www.wesleyfussner.com/">Wesley Fussner (co-chair)</a>
+<a href="http://rolandglueck.de/">Roland Gluck </a>
+<a href="https://profiles.canterbury.ac.nz/Walter-Guttmann">Walter Guttman </a>
+<a href="http://www.cs.ucl.ac.uk/staff/robin_hirsch/">Robin Hirsch </a>
+<a href="http://www.hoefner-online.de/">Peter Höfner </a>
+<a href="https://marceljackson.ltumathstats.com/">Marcel Jackson </a>
+<a href="https://scholar.google.com/citations?user=rWJLBq8AAAAJ&hl=de">Ali Jaoua </a>
+<a href="https://www1.chapman.edu/~jipsen/">Peter Jipsen </a>
+<a href="https://tobias.kap.pe/">Tobias Kappé </a>
+<a href="https://iphils.uj.edu.pl/~t.kowalski/">Tomasz Kowalski </a>
+<a href="https://www.mimuw.edu.pl/~sl/">Slawek Lasota </a>
+<a href="https://cs.unibuc.ro/~ileustean/">Ioana Leustean </a>
+<a href="https://faculty.sites.iastate.edu/maddux/">Roger Maddux </a>
+<a href="https://www.dcc.fc.up.pt/~nam/">Nelma Moreira </a>
+<a href="https://pageperso.lis-lab.fr/luigi.santocanale/">Luigi Santocanale (co-chair)</a>
+<a href="https://www.cs.sfu.ca/~ter/">Eugenia Ternovska </a>
+<a href="https://www.cosc.brocku.ca/~mwinter/">Michael Winter </a>
+<a href="https://www.mimuw.edu.pl/~ziemians/">Krzysztof Ziemiański </a>
+<a href="https://jassemrl.github.io/">Jas Šemrl </a>        </div>
 
         <div class="sideBox LHS">
             <div>Organizing Committee</div>
@@ -151,7 +140,7 @@ $oldversion = false;
 
             <p>
                 RAMICS 2026 will take place on  <strong>April 7-10, 2026</strong>,
-                at the <a href="https://www.impan.pl/en/other-information/bedlewo-conference-center">Institute of Matematics of Polish Academy of Sciences,
+                at the <a href="https://www.impan.pl/en/other-information/bedlewo-conference-center">Institute of Mathematics of the Polish Academy of Sciences,
                     Będlewo, Poland</a>.
             </p>
 
@@ -176,24 +165,7 @@ $oldversion = false;
             -->
 
             <!--      <h3 id="news"><font color="red">News</font></h3> -->
-            <?php if ($oldversion): ?>
-                <p>Since 1994, the RAMiCS conference series has been the main
-                    venue for research on relation algebras, Kleene algebras and
-                    similar algebraic formalisms, and their applications as
-                    conceptual and methodological tools in computer science and
-                    beyond.</p>
-
-                <p>Theoretical aspects include semigroups, residuated lattices,
-                    semirings, Kleene algebras, relation algebras, quantales and
-                    other algebras; their connections with program logics and
-                    other logics; their use in the theories of automata,
-                    concurrency, formal languages, games, networks and programming
-                    languages; the development of algebraic, algorithmic,
-                    category-theoretic, coalgebraic and proof-theoretic methods
-                    for these theories; their formalisation with theorem
-                    provers.</p>
-            <?php else: ?>
-                <p>
+                            <p>
                     Since 1994, the RAMiCS conference series has served as the primary forum for research on relation algebras, Kleene algebras, and related algebraic structures. These frameworks play a central role as conceptual and methodological tools in computer science and beyond.
                 </p>
                 <p>
@@ -203,8 +175,7 @@ $oldversion = false;
                     Applications of these formalisms span a wide range of domains, including tools and techniques for program specification, verification, and correctness; qualitative and quantitative models of computing systems; algorithm design; automated reasoning; network protocol analysis; optimisation; control; and even social choice theory.
                 </p>
 
-            <?php endif; ?>
-
+            
             <!--     
                   <img src="statueX.jpg" alt="Statue commemorating the role of
                   students of École polytechnique in the defence of Paris in 1814"
@@ -233,76 +204,34 @@ $oldversion = false;
                     IRIF, Université Paris Cité, France</li>
                 -->
             </ul>
-
+            <!-- 
             <h3 id="accepted">Accepted papers</h3>
 
             <ul>
                 <li>TBA</li>
-                <!-- 
+                
                 <li>Frimpong Osei and Michael Winter.
-                    <i>L-Fuzzy Weak Preference, Preference, and Choice Relations</i></li>
-                <li>Jeremy Alm, Ashlee Bostic, Claire Chenault, Kenyon Coleman and Chesney Culver.
-                    <i>Cyclic Group Spectra for Some Small Relation Algebras</i></li>
-                <li>Yoshiki Nakamura.
-                    <i>Undecidability of the Positive Calculus of Relations with Transitive Closure and Difference: Hypothesis Elimination Using Graph Loops</i></li>
-                <li>Luigi Santocanale, Gregory Chichery and Cédric de Lacroix.
-                    <i>Lifting star-autonomy</i></li>
-                <li>Ignacio Bellas Acosta and John Stell.
-                    <i>Monotone Ω-Sup-Fuzzy Relations: Converse and Complementation</i></li>
-                <li>Peter Jipsen, Andrew Craig and Claudette Robinson.
-                    <i>Frames and spaces for distributive quasi relation algebras and involutive FL-algebras</i></li>
-                <li>Thomas Baronner, Henning Basold and Márton Hablicsek.
-                    <i>Irrationality of Process Replication for Higher-Dimensional Automata</i></li>
-                <li>Roland Glück.
-                    <i>A Matrix-oriented View of Bisimulation Quotients over Dioid-labeled Transition Systems</i></li>
-                <li>Stefano Bonzio, José Gil-Férez, Peter Jipsen, Adam Přenosil and Melissa Sugimoto.
-                    <i>On the structure of balanced residuated partially-ordered monoids</i></li>
-                <li>Ian J. Hayes, Larissa Meinicke and Naso Evangelou-Oost.
-                    <i>Restructuring a concurrent refinement algebra</i></li>
-                <li>Sebastiaan Joosten and Stef Joosten.
-                    <i>Data Migration under a Changing Schema in Ampersand</i></li>
-                <li>Nikolai Krivulin.
-                    <i>Using matrix sparsification to solve tropical linear vector equations</i></li>
-                <li>Cameron Calk and Luigi Santocanale.
-                    <i>Complete congruences of completely distributive lattices</i></li>
-                <li>Amazigh Amrane, Hugo Bazille, Emily Clement, Uli Fahrenberg and Krzysztof Ziemianski.
-                    <i>Presenting Interval Pomsets with Interfaces</i></li>
-                <li>Stefano Aguzzoli and Matteo Bianchi.
-                    <i>Tabular and pretabular varieties of MTL-algebras</i></li>
-                -->
-            </ul>
+                    <i>L-Fuzzy Weak Preference, Preference, and Choice Relations</i></li> 
+             </ul>
 
-            <h3 id="accepted-short">Accepted short contributions</h3>
+            -->
+            <!-- 
+           <h3 id="accepted-short">Accepted short contributions</h3>
 
-            <ul>
-                <li>TBA</li>
-                <!--
-                <li>Wesley Fussner and Simon Santschi.
-                    <i>Varieties of BL-Algebras With the Amalgamation Property: An Exhaustive Classification</i></li>
-                <li>Uli Fahrenberg.
-                    <i>Developments in Higher-Dimensional Automata Theory</i></li>
-                <li>Filip Jankovec.
-                    <i>Variety of pointed Abelian l-groups</i></li>
-                <li>George Metcalfe and Simon Santschi.
-                    <i>Right-orders on Free Groups</i></li>
-                <li>Jérémy Ledent and Roman Kniazev.
-                    <i>Towards Domain Theory for Distributed Tasks</i></li>
-                <li>Eugenia Ternovska.
-                    <i>Promise Algebra: a Functional Approach to Non-Deterministic Computations</i></li>
-                <li>Baltasar Trancón y Widemann.
-                    <i>Towards a Relation-Algebraic Account of Control Flow Graph Analysis</i></li>
-                <li>Nino Guallart.
-                    <i>Formal Properties of Stochastic Matrices for Subjective Probabilistic Operators in Kripke Frames</i></li>
-                <li>Ali Jaoua.
-                    <i>Fuzzy and crisp binary relation reduction: applications for data summarization and anomalies detections</i></li>
-                -->
-            </ul>
+           <ul>
+               <li>TBA</li>
+               <li>Wesley Fussner and Simon Santschi.
+                   <i>Varieties of BL-Algebras With the Amalgamation Property: An Exhaustive Classification</i></li>
+               
+           </ul>
+            -->
 
-            <h3 id="registration">Registration</h3>
             <!--
 
-            <p>Registration is now open. The deadline for early registration is 26 June 2024, and the deadline for regular registration 
-                is 26 July 2024. Participants should register using the following link: <a href="https://form.jotform.com/241467306672055">Online registration page</a></p>
+<h3 id="registration">Registration</h3>
+
+<p>Registration is now open. The deadline for early registration is 26 June 2024, and the deadline for regular registration 
+    is 26 July 2024. Participants should register using the following link: <a href="https://form.jotform.com/241467306672055">Online registration page</a></p>
 
             -->
             <h3 id="venue">Venue and local organization</h3>
@@ -322,7 +251,7 @@ $oldversion = false;
 
             <h3 id="cfp">Call for papers</h3>
 
-            <a href="https://link.springer.com/conference/ramics"><img src="LNCS-Logo.jpg"
+            <a href="https://link.springer.com/conference/ramics"><img src="figs/LNCS-Logo.jpg"
                                                                        width="30%" alt="Springer LNCS logo" title="Springer LNCS logo"
                                                                        style="float:right; margin-top:0px; margin-bottom:0px;
                                                                        margin-left:20px; margin-right:0px" /></a>
@@ -396,59 +325,67 @@ $oldversion = false;
                 For more information, see
                 <a href="https://ramics-conf.github.io/">https://ramics-conf.github.io/</a>.
                 <h4>List of previous conferences</h4>
-                <a target="_blank" href="https://ramics-conf.github.io/2024/">RAMiCS 2024, Prague, Czech Republic</a><br>
-                    <a target="_blank" href="https://ramics20.lis-lab.fr/">RAMiCS 2023, Augsburg, Germany</a><br>
-                        <a target="_blank" href="https://ramics19.lis-lab.fr/">RAMiCS 2021, Marseille, France</a><br>
-                            <a target="_blank" href="http://web.archive.org/web/20210505151430/http://ramics18.gforge.inria.fr/">RAMiCS 2020, Palaiseau, France (virtual event)</a><br>
-                                <a target="_blank" href="http://web.archive.org/web/20181202011148/http://www.ramics-conference.org/">RAMiCS 2018, Groningen, The Netherlands</a><br>
-                                    <a target="_blank" href="http://www.ens-lyon.fr/LIP/PLUME/RAMiCS17/">RAMiCS 2017, Lyon, France</a><br>
-                                        <a target="_blank" href="https://ramics2015.di.uminho.pt/">RAMiCS 2015, Braga, Portugal</a><br>
-                                            <a target="_blank" href="https://mathcs.chapman.edu/ramics2014/">RAMiCS 2014, Marienstatt, Germany</a><br>
-                                                <a target="_blank" href="https://www.cl.cam.ac.uk/events/ramics13/">RAMiCS 2012, Cambridge, UK</a><br>
-                                                    <a target="_blank" href="http://web.archive.org/web/20120304195131/http://www.eur.nl/fw/english/ramics12/">RAMiCS 2011, Rotterdam, The Netherlands</a><br>
-                                                        <a target="_blank" href="http://web.archive.org/web/20100118104827/http://www.qu.edu.qa/RelMiCs11/">RelMiCS/AKA 2009, Doha, Qatar</a><br>
-                                                            <a target="_blank" href="http://web.archive.org/web/20081205020939/http://www.informatik.uni-augsburg.de/rel_aka/">RelMiCS/AKA 2008, Frauenw&oumlrth, Germany</a><br>
-                                                                <a target="_blank" href="http://www.cs.man.ac.uk/relmics06/">RelMiCS/AKA 2006, Manchester, UK</a><br>
-                                                                    <a target="_blank" href="http://www.cosc.brocku.ca/Faculty/Winter/RelMiCS8/">RelMiCS/AKA 2005, St. Catherines, Canada</a><br>
-                                                                        <a target="_blank" href="http://web.archive.org/web/20060821212556/http://www.informatik.uni-kiel.de/~relmics7/">RelMiCS/AKA 2003, Malente, Germany</a><br>
-                                                                            <a target="_blank" href="http://web.archive.org/web/20060827165702/http://www.uvt.nl/faculteiten/fww/medewerkers/swart/conference/rmcs2001.html">RelMiCS 2001, Oisterwijk, The Netherlands</a><br>
-                                                                                <a target="_blank" href="https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=01081">AKA 2001, Dagstuhl, Germany</a><br>
-                                                                                    <a target="_blank" href="https://web.archive.org/web/20071102224245/http://www.ift.ulaval.ca/~desharnais/Conferences/RelMiCS/">RelMiCS 2000, Valcartier, Canada</a><br>
-                                                                                        RelMiCS 1998, Warsaw, Poland<br>
-                                                                                            RelMiCS 1997, Hammamet, Tunisia<br>
-                                                                                                RelMiCS 1995, Parati, Brazil<br>
-                                                                                                    <a target="_blank" href="https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=9403">RelMiCS 1994, Dagstuhl, Dagstuhl, Germany</a><br>
-                                                                                                        <a target="_blank" href="http://web.archive.org/web/20070502215428/http://www2.cs.unibw.de/Proj/relmics/html/">RelMiCS Project Page</a><br>
-                                                                                                            </p>
+                <a target="_blank" href="https://ramics-conf.github.io/2024/">RAMiCS 2024, Prague, Czech Republic</a></br>
+                <a target="_blank" href="https://ramics20.lis-lab.fr/">RAMiCS 2023, Augsburg, Germany</a></br>
+                <a target="_blank" href="https://ramics19.lis-lab.fr/">RAMiCS 2021, Marseille, France</a></br>
+                <a target="_blank" href="http://web.archive.org/web/20210505151430/http://ramics18.gforge.inria.fr/">RAMiCS 2020, Palaiseau, France (virtual event)</a></br>
+                <a target="_blank" href="http://web.archive.org/web/20181202011148/http://www.ramics-conference.org/">RAMiCS 2018, Groningen, The Netherlands</a></br>
+                <a target="_blank" href="http://www.ens-lyon.fr/LIP/PLUME/RAMiCS17/">RAMiCS 2017, Lyon, France</a></br>
+                <a target="_blank" href="https://ramics2015.di.uminho.pt/">RAMiCS 2015, Braga, Portugal</a></br>
+                <a target="_blank" href="https://mathcs.chapman.edu/ramics2014/">RAMiCS 2014, Marienstatt, Germany</a></br>
+                <a target="_blank" href="https://www.cl.cam.ac.uk/events/ramics13/">RAMiCS 2012, Cambridge, UK</a></br>
+                <a target="_blank" href="http://web.archive.org/web/20120304195131/http://www.eur.nl/fw/english/ramics12/">RAMiCS 2011, Rotterdam, The Netherlands</a></br>
+                <a target="_blank" href="http://web.archive.org/web/20100118104827/http://www.qu.edu.qa/RelMiCs11/">RelMiCS/AKA 2009, Doha, Qatar</a></br>
+                <a target="_blank" href="http://web.archive.org/web/20081205020939/http://www.informatik.uni-augsburg.de/rel_aka/">RelMiCS/AKA 2008, Frauenw&oumlrth, Germany</a></br>
+                <a target="_blank" href="http://www.cs.man.ac.uk/relmics06/">RelMiCS/AKA 2006, Manchester, UK</a></br>
+                <a target="_blank" href="http://www.cosc.brocku.ca/Faculty/Winter/RelMiCS8/">RelMiCS/AKA 2005, St. Catherines, Canada</a></br>
+                <a target="_blank" href="http://web.archive.org/web/20060821212556/http://www.informatik.uni-kiel.de/~relmics7/">RelMiCS/AKA 2003, Malente, Germany</a></br>
+                <a target="_blank" href="http://web.archive.org/web/20060827165702/http://www.uvt.nl/faculteiten/fww/medewerkers/swart/conference/rmcs2001.html">RelMiCS 2001, Oisterwijk, The Netherlands</a></br>
+                <a target="_blank" href="https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=01081">AKA 2001, Dagstuhl, Germany</a></br>
+                <a target="_blank" href="https://web.archive.org/web/20071102224245/http://www.ift.ulaval.ca/~desharnais/Conferences/RelMiCS/">RelMiCS 2000, Valcartier, Canada</a></br>
+                RelMiCS 1998, Warsaw, Poland</br>
+                RelMiCS 1997, Hammamet, Tunisia</br>
+                RelMiCS 1995, Parati, Brazil</br>
+                <a target="_blank" href="https://www.dagstuhl.de/en/program/calendar/semhp/?semnr=9403">RelMiCS 1994, Dagstuhl, Dagstuhl, Germany</a></br>
+                <a target="_blank" href="http://web.archive.org/web/20070502215428/http://www2.cs.unibw.de/Proj/relmics/html/">RelMiCS Project Page</a></br>
+            </p>
 
-                                                                                                            <h3 id="sponsors">RAMICS 2026 sponsors</h3>
+            <h3 id="sponsors">RAMICS 2026 sponsors</h3>
 
-                                                                                                            <center>
+            <center>
+                <a href="">
+                  <img src="figs/impan.jpg" title="Impan" alt="Impan"
+                       style="width:12%; height:auto; margin-right:1em;vertical-align: top;" />
+                </a>
+                <a href="">
+                  <img src="figs/BanachCenter.png" title="Banach Center" alt="Banach Center"
+                       style="width:12%; height:auto; margin-right:1em;vertical-align: top;" />
+                </a>
 
-                                                                                                                <!--
-                                                                                                                <a href="https://www.smf.ematd.fr/">
-                                                                                                                  <img src="img/logoSMF.jpeg" title="SMF" alt="SMF logo"
-                                                                                                                       style="margin-left:50px; margin-right:20px; max-widtd: 20%;
-                                                                                                                              max-height: 20%;" />
-                                                                                                                </a>
-                                                                                                                -->
+                <!--
+                <a href="https://www.smf.ematd.fr/">
+                  <img src="img/logoSMF.jpeg" title="SMF" alt="SMF logo"
+                       style="margin-left:50px; margin-right:20px; max-widtd: 20%;
+                              max-height: 20%;" />
+                </a>
+                -->
 
-                                                                                                            </center>
+            </center>
 
-                                                                                                            <h3 id="contact">Contact</h3>
+            <h3 id="contact">Contact</h3>
 
-                                                                                                            <p><a href="mailto:ramics2026@easychair.org">ramics2026@easychair.org</a></p>
+            <p><a href="mailto:ramics2026@easychair.org">ramics2026@easychair.org</a></p>
 
-                                                                                                            </div>
+        </div>
 
-                                                                                                            <!-- ###### Footer ###### -->
+        <!-- ###### Footer ###### -->
 
-                                                                                                            <div id="footer">
-                                                                                                                <div>
-                                                                                                                    Website design based on <a href="http://www.oswd.org/design/preview/id/1152">Blue Haze</a> by <a href="http://www.oswd.org/user/profile/id/3013">haran</a> from <a href="http://www.oswd.org/">OSWD</a>.  <a href="mailto:ulrich.fahrenberg@polytechnique.edu">Contact</a>
-                                                                                                                </div>
-                                                                                                            </div>
+        <div id="footer">
+            <div>
+                Website design based on <a href="http://www.oswd.org/design/preview/id/1152">Blue Haze</a> by <a href="http://www.oswd.org/user/profile/id/3013">haran</a> from <a href="http://www.oswd.org/">OSWD</a>.  <a href="mailto:ulrich.fahrenberg@polytechnique.edu">Contact</a>
+            </div>
+        </div>
 
-                                                                                                            </body>
+    </body>
 
-                                                                                                            </html>
+</html>
