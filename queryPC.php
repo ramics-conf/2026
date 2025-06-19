@@ -65,6 +65,22 @@ class QueryPC {
             echo "$country: $no\n";
         }
     }
+    
+     static function echoPCforCFP() {
+        $rows = self::query("SELECT A,B,H WHERE M = 'Yes' ORDER BY B");
+        foreach ($rows as $row) {
+            $prenom = $row['c'][0]['v'] ?? '';
+            $nom = $row['c'][1]['v'] ?? '';
+            $country = $row['c'][2]['v'] ?? '';
+            $role = '';
+            if (in_array($nom, ['Fussner', 'Fahrenberg', 'Santocanale'])) {
+                $role = ' (co-chair)';
+            }
+            echo "* $prenom $nom, $country$role\n";
+        }
+    }
+
 }
 
 //QueryPC::echoPCbyCountry();
+QueryPC::echoPCforCFP();
