@@ -8,4 +8,4 @@ zip:
 	cd ../ ; zip -r web.zip web/*  -x web/nbproject/\*
 
 index:
-	@php index.php
+	@php index.php > index.html
