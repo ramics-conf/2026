@@ -1,0 +1,79 @@
+Subject: Call for Papers - RAMiCS 2026 (Będlewo, Poland, 7–10 April 2026)
+
+Apologies for multiple copies of this email; please distribute as you see fit.
+
+                           CALL FOR PAPERS
+
+                             RAMiCS 2026
+                  21st International Conference on
+       Relational and Algebraic Methods in Computer Science
+    Institute of Mathematics of the Polish Academy of Sciences
+                  Będlewo, Poland, 7-10 April 2026
+
+                 https://ramics-conf.github.io/2026
+
+The RAMiCS conference series is the main venue for research on relational algebras, Kleene algebras and similar algebraic formalisms, and their applications as conceptual and methodological tools in computer science and beyond. RAMiCS 2026 will be organized at the 
+Research and Conference Center of the Institute of Mathematics of the Polish Academy of Sciences in Będlewo, close to Poznań in Poland, and will feature both a classical conference and interactive sessions.
+
+IMPORTANT DATES
+
+* Abstract submission deadline: 1 November 2025
+* Paper submission deadline: 6 November 2025
+* Author notification: 20 January 2026
+* Final version due: 10 February 2026
+* Conference dates: 7-10 April 2026
+
+INVITED SPEAKERS
+
+* TBA
+
+PROGRAM COMMITTEE
+
+* Henning  Basold, The Netherlands
+* Manuel Bodirsky, Germany
+* Andrew Craig, South-Africa
+* Uli Fahrenberg, France (co-chair)
+* Wesley Fussner, Czech Republic (co-chair)
+* Roland Glück, Germany
+* Damas Gruska, Slovakia
+* Walter Guttmann, New Zealand
+* Robin Hirsch, UK
+* Peter Höfner, Australia
+* Marcel Jackson, Australia
+* Ali Jaoua, Qatar
+* Peter Jipsen, USA
+* Bartek Klin, UK
+* Tomasz Kowalski, Poland
+* Sławek Lasota, Poland
+* Ioana Leuştean, Romania
+* Roger Maddux, USA
+* Nelma Moreira, Portugal
+* Luigi Santocanale, France (co-chair)
+* Jas Šemrl, UK
+* Eugenia Ternovska, Canada
+* Michael Winter, Canada
+* Krzysztof Ziemiański, Poland
+
+SCOPE
+
+Since 1994, the RAMiCS conference series has been the main venue for research on relational algebras, Kleene algebras and similar algebraic formalisms, and their applications as conceptual and methodological tools in computer science and beyond.
+
+Theoretical aspects include semigroups, residuated lattices, semirings, Kleene algebras, relation algebras, quantales and other algebras; their connections with program logics and other logics; their use in the theories of automata, concurrency, formal languages, games, networks and programming languages; the development of algebraic, algorithmic, category-theoretic, coalgebraic and proof-theoretic methods for these theories; their formalisation with theorem provers.
+
+Applications include tools and techniques for program correctness, specification and verification; quantitative and qualitative models and semantics of computing systems and processes; algorithm design, automated reasoning, network protocol analysis, social choice, optimisation and control.
+
+We are calling for submission of original work not published or under review for publication elsewhere. The proceedings will be published as part of Springer LNCS. As for earlier RAMiCS conferences, we intend to publish a journal special issue with revised and extended versions of a selection of the best papers.
+
+Submission is via EasyChair at
+
+    https://easychair.org/conferences/?conf=ramics2026
+
+For more information, see
+
+    https://ramics-conf.github.io/2026/
+
+Please feel free to forward this announcement to interested colleagues.
+
+Best regards,
+The RAMiCS 2026 Organizing Committee
+
