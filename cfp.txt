@@ -36,17 +36,21 @@ PROGRAM COMMITTEE
 * Wesley Fussner, Czech Republic (co-chair)
 * Roland Glück, Germany
 * Damas Gruska, Slovakia
-* Walter Guttman, New Zealand
+* Walter Guttmann, New Zealand
 * Robin Hirsch, UK
 * Peter Höfner, Australia
 * Marcel Jackson, Australia
 * Ali Jaoua, Qatar
 * Peter Jipsen, USA
+* Bartek Klin, UK
 * Tomasz Kowalski, Poland
 * Sławek Lasota, Poland
 * Ioana Leuştean, Romania
 * Roger Maddux, USA
+* Nelma Moreira, Portugal
 * Luigi Santocanale, France (co-chair)
+* Jas Šemrl, UK
+* Eugenia Ternovska, Canada
 * Michael Winter, Canada
 * Krzysztof Ziemiański, Poland
 
