@@ -1,0 +1,127 @@
+Noam Zeilberger
+young
+Polytechnique, Paris
+https://noamz.org/
+UF 2
+WF 2
+LS 3
+
+Achim Blumensath
+east
+Brno
+https://www.fi.muni.cz/~blumens/
+UF 2
+
+Zeinab Galal
+female, young, asia
+Kyoto
+https://zgalal.github.io/
+UF 1
+
+Ryoma Sin'ya
+young, asia
+Akita, Japan
+http://www.math.akita-u.ac.jp/~ryoma/
+UF 2
+LS 2
+
+Luca Reggio
+young
+U. Statale, Milano
+https://dblp.org/pid/177/9279.html
+https://lucareggio.github.io/
+UF 0
+WF -1
+
+Benjamin Monmege
+young
+Marseille
+https://dblp.org/pid/85/733.html
+https://pageperso.lis-lab.fr/~benjamin.monmege/
+UF -1
+WF -1
+
+Simon Vilmin
+young
+Marseille
+https://dblp.org/pid/245/7535.html
+https://simvil.github.io/
+
+Sophie Pinchinat
+female
+Rennes
+https://people.irisa.fr/Sophie.Pinchinat/
+UF 2
+WF 0
+
+Anupam Das
+young
+Birmingham
+https://www.anupamdas.com/
+UF 3
+WF 3
+
+Sławek Lasota
+east
+Warsaw
+https://www.mimuw.edu.pl/~sl/
+UF 1
+WF 0
+
+Jana Wagemaker
+young, female
+Nijmegen
+https://janawagemaker.github.io/
+UF 1
+WF 3
+
+Hans Leiss
+https://dblp.org/pid/08/2143.html
+UF 3
+WF 1
+
+Szymon Toruńczyk
+east
+Warsaw
+https://www.mimuw.edu.pl/~szymtor/
+UF 2
+
+Michał Skrzypczak
+east
+Warsaw
+https://www.mimuw.edu.pl/~mskrzypczak/
+UF 2
+
+Lorenzo Clemente
+east
+Warsaw
+https://sites.google.com/view/lorenzoclemente/
+UF 2
+
+Aliaume Lopez
+young
+Warsaw
+https://www.irif.fr/~alopez/
+UF 1
+
+Claudette Robinson
+female, south
+Johannesburg
+https://scholar.google.co.za/citations?user=MnQrls8AAAAJ&hl=en
+https://www.uj.ac.za/members/claudette-robinson/
+UF 2
+WF 2
+
+Revantha Ramanayake
+Groningen
+https://www.rug.nl/staff/d.r.s.ramanayake/
+https://dblp.org/pid/68/1255.html
+UF 0
+WF 2
+
+Gavin St. John
+young
+Cagliari
+https://gavinstjohn.wordpress.com/
+UF 0
+WF 1
