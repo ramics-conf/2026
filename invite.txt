@@ -4,19 +4,22 @@ Polytechnique, Paris
 https://noamz.org/
 UF 2
 WF 2
-LS 3
+LS 2
 
 Achim Blumensath
 east
 Brno
 https://www.fi.muni.cz/~blumens/
 UF 2
+LS 0 (Not clear for me in what respect a talk of him would be
+pertinent to RAMIiCS)
 
 Zeinab Galal
 female, young, asia
 Kyoto
 https://zgalal.github.io/
 UF 1
+LS 0 (Hear talks by her previousl, to much linear logician in my opinion)
 
 Ryoma Sin'ya
 young, asia
@@ -32,6 +35,7 @@ https://dblp.org/pid/177/9279.html
 https://lucareggio.github.io/
 UF 0
 WF -1
+LS 2
 
 Benjamin Monmege
 young
@@ -40,12 +44,14 @@ https://dblp.org/pid/85/733.html
 https://pageperso.lis-lab.fr/~benjamin.monmege/
 UF -1
 WF -1
+LS 1
 
 Simon Vilmin
 young
 Marseille
 https://dblp.org/pid/245/7535.html
 https://simvil.github.io/
+LS 1
 
 Sophie Pinchinat
 female
@@ -53,6 +59,8 @@ Rennes
 https://people.irisa.fr/Sophie.Pinchinat/
 UF 2
 WF 0
+LS 1
+
 
 Anupam Das
 young
@@ -60,6 +68,7 @@ Birmingham
 https://www.anupamdas.com/
 UF 3
 WF 3
+LS 2
 
 Sławek Lasota
 east
@@ -67,6 +76,7 @@ Warsaw
 https://www.mimuw.edu.pl/~sl/
 UF 1
 WF 0
+LS 2
 
 Jana Wagemaker
 young, female
@@ -74,35 +84,43 @@ Nijmegen
 https://janawagemaker.github.io/
 UF 1
 WF 3
+LS 1
 
 Hans Leiss
 https://dblp.org/pid/08/2143.html
 UF 3
 WF 1
+LS 3
 
 Szymon Toruńczyk
 east
 Warsaw
 https://www.mimuw.edu.pl/~szymtor/
 UF 2
+LS 0 (Nor clear why his reserach topics  should be pertinient to RAMiCS)
 
 Michał Skrzypczak
 east
 Warsaw
 https://www.mimuw.edu.pl/~mskrzypczak/
 UF 2
+LS 2
 
 Lorenzo Clemente
 east
 Warsaw
 https://sites.google.com/view/lorenzoclemente/
 UF 2
+LS (Interested in The commutativity problem for effective varieties of formal series, and applications)
+
 
 Aliaume Lopez
 young
 Warsaw
 https://www.irif.fr/~alopez/
 UF 1
+LS 1 (Interesting  his thesis, but Frency, cannot be considered as East)
+
 
 Claudette Robinson
 female, south
@@ -111,6 +129,7 @@ https://scholar.google.co.za/citations?user=MnQrls8AAAAJ&hl=en
 https://www.uj.ac.za/members/claudette-robinson/
 UF 2
 WF 2
+LS -2 
 
 Revantha Ramanayake
 Groningen
@@ -118,6 +137,7 @@ https://www.rug.nl/staff/d.r.s.ramanayake/
 https://dblp.org/pid/68/1255.html
 UF 0
 WF 2
+LS 1 (Too logician for my taste)
 
 Gavin St. John
 young
@@ -125,3 +145,4 @@ Cagliari
 https://gavinstjohn.wordpress.com/
 UF 0
 WF 1
+LS 1
