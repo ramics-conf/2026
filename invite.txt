@@ -11,15 +11,14 @@ east
 Brno
 https://www.fi.muni.cz/~blumens/
 UF 2
-LS 0 (Not clear for me in what respect a talk of him would be
-pertinent to RAMIiCS)
+LS 0 (Not clear for me in what respect a talk of him would be pertinent to RAMIiCS)
 
 Zeinab Galal
 female, young, asia
 Kyoto
 https://zgalal.github.io/
 UF 1
-LS 0 (Hear talks by her previousl, to much linear logician in my opinion)
+LS 0 (Heard talks by her previously, to much linear logician in my opinion)
 
 Ryoma Sin'ya
 young, asia
@@ -60,7 +59,6 @@ https://people.irisa.fr/Sophie.Pinchinat/
 UF 2
 WF 0
 LS 1
-
 
 Anupam Das
 young
