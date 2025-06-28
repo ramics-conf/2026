@@ -3,7 +3,7 @@ young
 Polytechnique, Paris
 https://noamz.org/
 UF 2
-WF 2
+WF 2 (good candidate, but PhD 2009 and not in the young category anymore)
 LS 2
 
 Achim Blumensath
@@ -11,15 +11,16 @@ east
 Brno
 https://www.fi.muni.cz/~blumens/
 UF 2
-LS 0 (Not clear for me in what respect a talk of him would be
-pertinent to RAMIiCS)
+LS 0 (Not clear for me in what respect a talk of him would be pertinent to RAMIiCS)
+WF 0 (Agree that his talk probably wouldn't connect with the usual RAMiCS audience)
 
 Zeinab Galal
 female, young, asia
 Kyoto
 https://zgalal.github.io/
 UF 1
-LS 0 (Hear talks by her previousl, to much linear logician in my opinion)
+LS 0 (Heard talks by her previously, to much linear logician in my opinion)
+WF 0 (Probably would not connect with RAMiCS audience much)
 
 Ryoma Sin'ya
 young, asia
@@ -27,6 +28,7 @@ Akita, Japan
 http://www.math.akita-u.ac.jp/~ryoma/
 UF 2
 LS 2
+WF 2
 
 Luca Reggio
 young
@@ -52,6 +54,7 @@ Marseille
 https://dblp.org/pid/245/7535.html
 https://simvil.github.io/
 LS 1
+WF -1
 
 Sophie Pinchinat
 female
@@ -60,7 +63,6 @@ https://people.irisa.fr/Sophie.Pinchinat/
 UF 2
 WF 0
 LS 1
-
 
 Anupam Das
 young
@@ -98,6 +100,7 @@ Warsaw
 https://www.mimuw.edu.pl/~szymtor/
 UF 2
 LS 0 (Nor clear why his reserach topics  should be pertinient to RAMiCS)
+WF 1 (I could see some RAMiCS connection, but I agree with Lugigi that it's weak)
 
 Michał Skrzypczak
 east
@@ -105,6 +108,8 @@ Warsaw
 https://www.mimuw.edu.pl/~mskrzypczak/
 UF 2
 LS 2
+WF 1 (Similar to Toruńczyk in some ways, could be a good choice but would need to be balanced with more algebraic speakers in my opinion)
+
 
 Lorenzo Clemente
 east
@@ -112,7 +117,7 @@ Warsaw
 https://sites.google.com/view/lorenzoclemente/
 UF 2
 LS 2 (Interested in The commutativity problem for effective varieties of formal series, and applications)
-
+WF 2
 
 Aliaume Lopez
 young
@@ -120,7 +125,7 @@ Warsaw
 https://www.irif.fr/~alopez/
 UF 1
 LS 1 (Interesting  his thesis, but Frency, cannot be considered as East)
-
+WF 1 (Similar thoughts to Luigi)
 
 Claudette Robinson
 female, south
