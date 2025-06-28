@@ -83,4 +83,4 @@ class QueryPC {
 }
 
 //QueryPC::echoPCbyCountry();
-//QueryPC::echoPCforCFP();
+QueryPC::echoPCforCFP();
