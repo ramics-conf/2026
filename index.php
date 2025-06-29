@@ -1,5 +1,5 @@
 <?php
-require __DIR__ . '/QueryPC.php';
+require __DIR__ . '/queryPC.php';
 
 $oldversion = false;
 ?>
@@ -184,13 +184,6 @@ $oldversion = false;
                   margin-top:0px; margin-bottom:0px; margin-left:20px;
                   margin-right:0px" />
             -->
-
-            <p>Applications include tools and techniques for program
-                correctness, specification and verification; quantitative and
-                qualitative models and semantics of computing systems and
-                processes; algorithm design, automated reasoning, network
-                protocol analysis, social choice, optimisation and
-                control.</p>
 
             <h3 id="invited">Invited speakers</h3>
 
