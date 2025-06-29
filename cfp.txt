@@ -61,7 +61,7 @@ Since 1994, the RAMiCS conference series has been the main venue for research on
 
 Theoretical aspects include semigroups, residuated lattices, semirings, Kleene algebras, relation algebras, quantales and other algebras; their connections with program logics and other logics; their use in the theories of automata, concurrency, formal languages, games, networks and programming languages; the development of algebraic, algorithmic, category-theoretic, coalgebraic and proof-theoretic methods for these theories; their formalisation with theorem provers.
 
-Applications include tools and techniques for program correctness, specification and verification; quantitative and qualitative models and semantics of computing systems and processes; algorithm design, automated reasoning, network protocol analysis, social choice, optimisation and control.
+Applications of these formalisms span a wide range of domains, including tools and techniques for program specification, verification, and correctness; qualitative and quantitative models of computing systems; algorithm design; automated reasoning; network protocol analysis; optimisation; control; and even social choice theory.
 
 We are calling for submission of original work not published or under review for publication elsewhere. The proceedings will be published as part of Springer LNCS. As for earlier RAMiCS conferences, we intend to publish a journal special issue with revised and extended versions of a selection of the best papers.
 
