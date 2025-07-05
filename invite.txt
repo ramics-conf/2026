@@ -1,5 +1,4 @@
 Noam Zeilberger
-young
 Polytechnique, Paris
 https://noamz.org/
 UF 2
@@ -55,6 +54,7 @@ https://dblp.org/pid/245/7535.html
 https://simvil.github.io/
 LS 1
 WF -1
+UF 1
 
 Sophie Pinchinat
 female
@@ -98,7 +98,7 @@ Szymon Toruńczyk
 east
 Warsaw
 https://www.mimuw.edu.pl/~szymtor/
-UF 2
+UF 1
 LS 0 (Nor clear why his reserach topics  should be pertinient to RAMiCS)
 WF 1 (I could see some RAMiCS connection, but I agree with Lugigi that it's weak)
 
@@ -109,7 +109,6 @@ https://www.mimuw.edu.pl/~mskrzypczak/
 UF 2
 LS 2
 WF 1 (Similar to Toruńczyk in some ways, could be a good choice but would need to be balanced with more algebraic speakers in my opinion)
-
 
 Lorenzo Clemente
 east
@@ -123,8 +122,8 @@ Aliaume Lopez
 young
 Warsaw
 https://www.irif.fr/~alopez/
-UF 1
-LS 1 (Interesting  his thesis, but Frency, cannot be considered as East)
+UF 0 (a bit too young, no?)
+LS 1 (Interesting  his thesis, but French, cannot be considered as East)
 WF 1 (Similar thoughts to Luigi)
 
 Claudette Robinson
@@ -132,7 +131,7 @@ female, south
 Johannesburg
 https://scholar.google.co.za/citations?user=MnQrls8AAAAJ&hl=en
 https://www.uj.ac.za/members/claudette-robinson/
-UF 2
+UF 0 (toning down my support after Luigi's comments 0623)
 WF 2
 LS -2 
 
