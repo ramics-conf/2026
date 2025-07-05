@@ -88,7 +88,7 @@ UF 1
 WF 3
 LS 1
 
-Hans Leiss
+Hans Leiß
 https://dblp.org/pid/08/2143.html
 UF 3
 WF 1
