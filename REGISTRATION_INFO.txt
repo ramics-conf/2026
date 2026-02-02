@@ -1,0 +1,147 @@
+================================================================================
+RAMICS 2026 REGISTRATION SYSTEM - ORGANIZED IN ONE FOLDER
+================================================================================
+
+LOCATION: /registration/
+
+All registration system files are contained in the "registration/" subfolder.
+This makes it easy to review, test, or remove if not needed.
+
+================================================================================
+QUICK ACCESS
+================================================================================
+
+Main Registration Page:
+  https://yoursite.com/registration/
+  https://yoursite.com/registration/register.php
+
+Admin Panel:
+  https://yoursite.com/registration/view_registrations.php
+
+Setup Admin Password (first time):
+  https://yoursite.com/registration/setup_admin.php
+
+================================================================================
+WHAT'S INCLUDED
+================================================================================
+
+registration/
+  ├── Public Pages
+  │   ├── index.php                  - Redirects to register.php
+  │   ├── register.php              - Registration form
+  │   └── registration_success.php  - Confirmation page
+  │
+  ├── Admin Pages
+  │   ├── view_registrations.php    - View/export registrations
+  │   ├── admin_config.php          - Configure system
+  │   └── setup_admin.php           - Set admin password
+  │
+  ├── Backend
+  │   ├── db.php                    - Database handler
+  │   └── data/
+  │       ├── .htaccess            - Security protection
+  │       └── registrations.db     - SQLite database
+  │
+  └── Documentation
+      ├── README.md                  - Overview
+      ├── QUICK_START.md            - Get started guide
+      ├── REGISTRATION_SYSTEM_README.md - Full docs
+      └── IMPLEMENTATION_SUMMARY.txt - Technical details
+
+Total: 12 files + 1 directory
+
+================================================================================
+INTEGRATION WITH MAIN SITE
+================================================================================
+
+Modified Files:
+  - index.php (line 67): Added registration link in navigation
+  - index.php (lines 224-226): Added registration section in content
+
+Link: <a href="registration/register.php">online registration form</a>
+
+================================================================================
+TO USE THE SYSTEM
+================================================================================
+
+1. Set admin password:
+   Visit: registration/setup_admin.php
+
+2. Test it:
+   Visit: registration/register.php
+   Fill out form and submit
+
+3. View registrations:
+   Visit: registration/view_registrations.php
+   Login with your password
+
+4. Configure:
+   Visit: registration/admin_config.php
+   Update deadline, capacity, etc.
+
+================================================================================
+TO REMOVE THE SYSTEM (IF NOT NEEDED)
+================================================================================
+
+1. Delete the folder:
+   rm -rf registration/
+
+2. Remove from index.php:
+   - Line 67: Remove <a href="#registration">Registration</a>
+   - Lines 224-226: Remove registration section
+
+That's it! All files are self-contained in one folder.
+
+================================================================================
+FEATURES
+================================================================================
+
+✅ Secure authentication (bcrypt password hashing)
+✅ SQL injection prevention (PDO prepared statements)
+✅ XSS protection (output escaping)
+✅ CSRF protection (security tokens)
+✅ Rate limiting (3 registrations per hour per IP)
+✅ Session timeout (30 minutes)
+✅ Database protection (.htaccess + chmod 600)
+✅ Email uniqueness validation
+✅ Deadline and capacity enforcement
+✅ CSV export with filtering
+✅ Statistics dashboard
+✅ Responsive design (matches site theme)
+
+================================================================================
+CURRENT STATUS
+================================================================================
+
+Database: ✅ Initialized and secured
+Configuration: ✅ Default values set
+Admin Password: ⚠️ Not set (use setup_admin.php)
+Registrations: 0 (clean, ready for production)
+
+Default Settings:
+  - Deadline: March 15, 2026 23:59:59
+  - Capacity: 50 participants
+  - Status: Enabled
+
+================================================================================
+SUPPORT
+================================================================================
+
+Documentation: See registration/README.md
+Full Docs: See registration/REGISTRATION_SYSTEM_README.md
+Questions: ramics2026@easychair.org
+
+================================================================================
+SYSTEM TESTED AND READY ✅
+================================================================================
+
+All components tested and working:
+  ✓ Database connection
+  ✓ File permissions
+  ✓ Security measures
+  ✓ Path resolution
+  ✓ Configuration
+
+The system is ready to accept registrations!
+
+================================================================================

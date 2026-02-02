@@ -63,7 +63,7 @@ $oldversion = false;
             <!-- <a href="#cfp">Call for papers</a> -->
             <!-- <a href="#program"><font color="red"><b>Program</b></font></a>  -->
             <a href="#invited">Invited speakers</a>
-            <!--<a href="#accepted">Accepted papers</a>
+            <!--<a href="#accepted">Accepted papers</a> -->
             <a href="#registration">Registration</a>
             <!-- <a href="ramics2024-flyer.pdf">Flyer</a> -->
             <a href="#venue">Venue</a>
@@ -220,14 +220,11 @@ $oldversion = false;
            </ul>
             -->
 
-            <!--
+            <h3 id="registration">Registration</h3>
 
-<h3 id="registration">Registration</h3>
+            <p>Registration is now open. Please use the
+                <a href="registration/register.php">online registration form</a> to register for RAMICS 2026.</p>
 
-<p>Registration is now open. The deadline for early registration is 26 June 2024, and the deadline for regular registration 
-    is 26 July 2024. Participants should register using the following link: <a href="https://form.jotform.com/241467306672055">Online registration page</a></p>
-
-            -->
             <h3 id="venue">Venue and local organization</h3>
 
             <p>
