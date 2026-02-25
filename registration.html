@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    <head>
+        <meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="CSS/site.css" title="RAMICS stylesheet" />
+        <link rel="stylesheet" type="text/css" media="print" href="CSS/print.css" title="RAMICS print stylesheet" />
+        <title>RAMICS 2026 - Registration</title>
+        <style type="text/css">
+            .participants-table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 1em;
+            }
+            .participants-table th, .participants-table td {
+                border: 1px solid #ccc;
+                padding: 0.4em 0.8em;
+                text-align: left;
+            }
+            .participants-table th {
+                background-color: #dce;
+            }
+            .participants-table tr:nth-child(even) td {
+                background-color: #f4f4f4;
+            }
+.loading { color: #666; font-style: italic; }
+            .error { color: #a00; border: 1px solid #f88; background: #fee; padding: 0.5em 1em; }
+        </style>
+        <script type="text/javascript">
+            function loadParticipants() {
+                var url = 'https://pageperso.lis-lab.fr/luigi.santocanale/RAMiCS2026Registration/participants.json.php';
+                fetch(url)
+                    .then(function(response) {
+                        if (!response.ok) { throw new Error('Network response was not ok'); }
+                        return response.json();
+                    })
+                    .then(function(data) {
+                        document.getElementById('loading').style.display = 'none';
+                        if (!data.success) { throw new Error('Server returned failure'); }
+                        displayParticipants(data.participants);
+                    })
+                    .catch(function(err) {
+                        document.getElementById('loading').style.display = 'none';
+                        document.getElementById('error').style.display = 'block';
+                        document.getElementById('error').textContent = 'Could not load participants: ' + err.message;
+                    });
+            }
+
+            function displayParticipants(participants) {
+                var tbody = document.getElementById('participants-body');
+                if (participants.length === 0) {
+                    var row = document.createElement('tr');
+                    var cell = document.createElement('td');
+                    cell.colSpan = 3;
+                    cell.textContent = 'No participants registered yet.';
+                    row.appendChild(cell);
+                    tbody.appendChild(row);
+                } else {
+                    participants.forEach(function(p) {
+                        var row = document.createElement('tr');
+                        [p.name, p.surname, p.affiliation].forEach(function(val) {
+                            var cell = document.createElement('td');
+                            cell.textContent = val || '';
+                            row.appendChild(cell);
+                        });
+                        tbody.appendChild(row);
+                    });
+                }
+                document.getElementById('participants-table').style.display = 'table';
+            }
+
+            window.onload = loadParticipants;
+        </script>
+    </head>
+
+    <body>
+
+        <!-- ###### Header ###### -->
+
+        <div id="header">
+            <span>
+                <img src="figs/impan.jpg" alt="Impan" style="width:8%; height:auto; margin-right:1em;vertical-align: top;"/>
+                <img src="figs/BanachCenter.png" alt="Banach Center" style="width:8%; height:auto;margin-right:5em;vertical-align: top;"/>
+            </span>
+            <span class="headerTitle">
+                <p><a href="index.html">Relational and Algebraic Methods in Computer Science (RAMICS 2026)</a></p>
+                <p>Institute of Mathematics of the Polish Academy of Sciences,
+                    Będlewo, Poland, April 7-10, 2026</p>
+            </span>
+        </div>
+
+        <!-- ###### Side Boxes ###### -->
+
+        <div class="sideBox LHS">
+            <div>Contents</div>
+            <a href="index.html">Home</a>
+            <a href="index.html#accepted">Accepted papers</a>
+            <a href="index.html#cfpr">Call for presentations &amp; tutorials</a>
+            <a href="index.html#dates">Important dates</a>
+            <a href="index.html#venue">Venue</a>
+            <a href="index.html#invited">Invited speakers</a>
+            <a href="index.html#history">History</a>
+            <a href="index.html#sponsors">Sponsors</a>
+            <a href="registration.html">Registration</a>
+            <a href="mailto:ramics2026@easychair.org">Contact</a>
+        </div>
+
+        <div class="sideBox LHS">
+            <div>Registration</div>
+            <a href="https://pageperso.lis-lab.fr/luigi.santocanale/RAMiCS2026Registration/">Register</a>
+            <!-- <a href="registration.html">Participants</a> -->
+        </div>
+
+        <!-- ###### Body Text ###### -->
+
+        <div id="bodyText">
+
+            <h2>Registration</h2>
+
+            <p>Registration to be done via <a href="https://pageperso.lis-lab.fr/luigi.santocanale/RAMiCS2026Registration/">https://pageperso.lis-lab.fr/luigi.santocanale/RAMiCS2026Registration/</a>.</p>
+
+            <h2>Registered participants</h2>
+
+            <p id="loading" class="loading">Loading participants...</p>
+            <p id="error" class="error" style="display:none"></p>
+
+            <table id="participants-table" class="participants-table" style="display:none">
+                <thead>
+                    <tr>
+                        <th>First name</th>
+                        <th>Last name</th>
+                        <th>Affiliation</th>
+                    </tr>
+                </thead>
+                <tbody id="participants-body">
+                </tbody>
+            </table>
+
+        </div>
+
+        <!-- ###### Footer ###### -->
+
+        <div id="footer">
+            <div>
+                Website design based on <a href="http://www.oswd.org/design/preview/id/1152">Blue Haze</a> by <a href="http://www.oswd.org/user/profile/id/3013">haran</a> from <a href="http://www.oswd.org/">OSWD</a>.  <a href="mailto:ulrich.fahrenberg@polytechnique.edu">Contact</a>
+            </div>
+        </div>
+
+    </body>
+
+</html>
