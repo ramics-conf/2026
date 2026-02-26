@@ -1,0 +1,20 @@
+
+
+Dear RAMiCS organizers,
+
+Please find below one submission for a contribution to RAMiCS. My preferred form of contribution would be a poster, but I can also do a short presentation.
+
+> Title: Kamp Theorem for Higher Dimensional Automata
+>
+> This is a joint work with Emily Clement and Jérémy Ledent.
+> Abstract: Temporal logics are a powerful tool to specify properties of computational systems. For concurrent programs, Higher Dimensional Automata (HDA) are a very expressive model of non-interleaving concurrency. HDA recognize languages of partially ordered multisets, or pomsets. Recent work has shown that Monadic Second Order (MSO) logic is as expressive as HDA for pomset languages. In the case of words, Kamp’s theorem states that First Order (FO) logic is as expressive as Linear Temporal Logic (LTL). In this paper, we extend this result to pomsets. To do so, we first investigate the class of pomset languages that are definable in FO. As expected, this is a strict subclass of MSO-definable languages. Then, we define a Linear Temporal Logic for pomsets (LTL_Poms), and show that it is equivalent to FO.
+>
+> The poster could also include some preliminary results and open questions about FO-equivalent formalisms for pomsets: aperiodic categories, counter-free HDAs.
+>
+> Paper: https://doi.org/10.4230/LIPIcs.CSL.2026.43
+
+Best regards,
+Enzo Erlich,
+Ph.D. Student
+IRIF, Université Paris-Cité, France
+LRE, EPITA, Paris, France
