@@ -1,0 +1,34 @@
+# Uli
+
+## 1
+abstain
+
+## 2
+This is nice, but some (a lot?) of this seems to be specialisations of things which are known for modules over semirings or semifields
+
+## 3
+I like this!  Are the open questions related to bisimulation-up-to techniques?
+
+## 4
+Looks fun.  Superficially these look a bit like branching automata, which also have hyperedges for concurrency; but afterwards I'm not so sure anymore.  I'd like to explore this.
+
+## 5
+Nice result and plainly in RAMiCS territory: accept!
+
+## 6
+abstain
+
+## 7
+abstain: this is my PhD student; but I just saw his CSL presentation of this paper, and it was good.
+
+## 8
+I half know this work, and I think this is nice.
+
+## 9
+Not clear how interesting this is; neither whether it's suitable for RAMiCS.
+
+## 10
+Can't say that I understand much of this; but seems to be good.
+
+## 11
+abstain
